@@ -21,11 +21,6 @@
   gap: 30px;
 }
 
-/* .pattern {
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
 .textContainer {
   display: flex;
   flex-direction: column;

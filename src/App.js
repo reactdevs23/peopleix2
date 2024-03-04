@@ -3,7 +3,7 @@ import { useState } from "react";
 import MainComponent from "./components/MainComponent/MainComponent";
 
 import { logo, pattern } from "./images";
-import Pattern from "./images/Pattern";
+
 import Arrow from "./images/Arrow";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     accentColor: "#3A0CA3",
     logo: logo,
     arrow: <Arrow color="#3B0CA2" />,
-    pattern: <Pattern />,
+
     initialPage: {
       img: "https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png",
 
