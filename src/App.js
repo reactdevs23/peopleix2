@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import MainComponent from "./components/MainComponent/MainComponent";
 
-import { logo, pattern } from "./images";
+import { logo } from "./images";
 
 import Arrow from "./images/Arrow";
 
@@ -24,7 +24,7 @@ function App() {
     },
     data: [
       {
-        heading: "BUDGET OPTIMIZATION",
+        title: "Reciprocity",
         info: "By meticulously forecasting resource requirements, businesses can effectively allocate budgets, identifying areas for expansion, redistribution, or consolidation, thereby optimizing financial resources.",
         img: "https://media.geeksforgeeks.org/wp-content/uploads/20231218222854/1.png",
       },
